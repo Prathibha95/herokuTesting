@@ -5,6 +5,7 @@ const bcrypt = require("bcryptjs");
 const _ = require("lodash");
 const emailController = require('./email.controller');
 
+
 //Register Admin
 module.exports.adminRegister = async function (req, res, next) {
   var admin = new Admin();
